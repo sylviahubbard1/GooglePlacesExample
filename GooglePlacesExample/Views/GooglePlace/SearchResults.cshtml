@@ -1,0 +1,11 @@
+﻿
+<h2>Search Results for Weather the Area: </h2>
+<h3>@ViewBag.location</h3>
+<ul>
+@foreach (var text in ViewBag.results)
+{
+    <li>@text</li>
+}
+</ul>
+<div>Would you like to Go Again? @Html.ActionLink("Search Again", "Search","GooglePlace")
+    </div>

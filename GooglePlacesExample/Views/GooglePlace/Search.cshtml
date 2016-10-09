@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Search";
+}
+<h2>Search For Weather Conditions in Your Area</h2>
+@using (Html.BeginForm())
+{
+    <div> Need Lat and Long codes for your city? <a href="#" onClick="window.open('http://www.latlong.net/', '_blank')">Click here</a></div>
+   <br />
+     <div>
+        a label latitude<input type="text" name="latitude" value="38.4247341" />
+    </div>
+    <br />
+    <div>
+        a label longitude<input type="text" name="longitude" value="-86.9624086" />
+    </div>
+    <br/>
+
+    <input type="submit" value="Search" />
+
+}
