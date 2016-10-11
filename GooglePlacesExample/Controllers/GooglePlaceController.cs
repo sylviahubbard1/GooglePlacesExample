@@ -17,7 +17,7 @@ namespace GooglePlacesExample.Controllers
     {
         private readonly string APIKEY = "";
 
-        // GET: GoolgePlace
+        
         public ActionResult Index()
         {
             return View();
